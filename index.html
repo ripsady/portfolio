@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Ripsady - Programación III</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Iconos para Redes y Tecnologías -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- 1. MENÚ -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">&lt;Ripsady/&gt;</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#conocimientos">Conocimientos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. PRESENTACIÓN INICIAL CON FOTO -->
+  <section id="inicio" class="hero">
+    <div class="hero-container">
+      <img src="https://github.com/ripsady.png" alt="Foto de perfil de Ripsady" class="profile-img">
+      <h1>Hola, soy <span class="highlight">Ripsady</span></h1>
+      <p>Estudiante de Desarrollo de Software | Programación III</p>
+      <a href="#proyectos" class="btn">Ver Mis Proyectos</a>
+    </div>
+  </section>
+
+  <!-- 3. INFORMACIÓN GENERAL -->
+  <section id="sobre-mi" class="section">
+    <h2>Información General</h2>
+    <div class="about-card">
+      <p>
+        ¡Bienvenido/a a mi portfolio! Soy estudiante de la UTN. Apasionado por la computación, el aprendizaje continuo y la resolución de problemas. Este sitio fue desarrollado para la materia <strong>Programación III</strong>, integrando conocimientos de maquetación, arquitectura y buenas prácticas de código.
+      </p>
+    </div>
+  </section>
+
+<!-- 4. CONOCIMIENTOS -->
+  <section id="conocimientos" class="section bg-alt">
+    <h2>Conocimientos</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML5 & CSS3</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-python"></i>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>C++</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-hashtag"></i>
+        <h3>C#</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-github"></i>
+        <h3>Git & GitHub</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Programación OO</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PROYECTOS -->
+  <section id="proyectos" class="section">
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Trabajos de Programación III</h3>
+        <p>Ejercicios, algoritmos y proyectos prácticos desarrollados durante la cursada de la materia.</p>
+        <a href="https://github.com/ripsady" target="_blank" class="btn-secondary">
+          <i class="fa-brands fa-github"></i> Ver en GitHub
+        </a>
+      </div>
+      <div class="project-card">
+        <h3>Proyectos Personales</h3>
+        <p>Exploración de nuevas tecnologías, repositorio de prácticas y código en desarrollo.</p>
+        <a href="https://github.com/ripsady?tab=repositories" target="_blank" class="btn-secondary">
+          <i class="fa-brands fa-github"></i> Ver Repositorios
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. REDES Y 7. FORMULARIO DE CONTACTO -->
+  <section id="contacto" class="section bg-alt">
+    <h2>Contacto & Redes</h2>
+    
+    <div class="contact-wrapper">
+      <!-- Redes -->
+      <div class="social-box">
+        <h3>Redes Sociales</h3>
+        <p>Podés encontrarme y ver mi código en:</p>
+        <div class="social-links">
+          <a href="https://github.com/ripsady" target="_blank" class="social-btn">
+            <i class="fa-brands fa-github"></i> GitHub: @ripsady
+          </a>
+        </div>
+      </div>
+
+      <!-- Formulario de Contacto -->
+      <form class="contact-form" action="https://formspree.io/f/xknlqwbz" method="POST">
+        <h3>Enviame un mensaje</h3>
+        <input type="text" name="nombre" placeholder="Tu Nombre" required>
+        <input type="email" name="email" placeholder="Tu Email" required>
+        <textarea name="mensaje" rows="4" placeholder="Tu Mensaje..." required></textarea>
+        <button type="submit" class="btn">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Ripsady - Portfolio para Programación III</p>
+  </footer>
+
+</body>
+</html>
+<script src="script.js"></script>
+</body>
+</html>
